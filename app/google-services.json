@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "466896129144",
+    "firebase_url": "https://uprint-e824c.firebaseio.com",
+    "project_id": "uprint-e824c",
+    "storage_bucket": "uprint-e824c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466896129144:android:085fa24d73cdec88",
+        "android_client_info": {
+          "package_name": "com.onprint.onprint_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466896129144-91h8o4g92j24u1jimm728bgkitkgje4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onprint.onprint_user",
+            "certificate_hash": "e51c17ff24cb0a35de7b733f453701cf0a7ce312"
+          }
+        },
+        {
+          "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhu0vhjlv1V5io9-kcnPHNe_QRkXcMq6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466896129144:android:9602ac4d2e17ffd6",
+        "android_client_info": {
+          "package_name": "com.uprint.uprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466896129144-7uugcvo4f3c795774o7tkmmfmf7hdi86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uprint.uprint",
+            "certificate_hash": "49bf80a8b3aa48cb2522b052730e48df20486f80"
+          }
+        },
+        {
+          "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhu0vhjlv1V5io9-kcnPHNe_QRkXcMq6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466896129144-ut05doj9ukeitb3448aed1jos3kdckvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
