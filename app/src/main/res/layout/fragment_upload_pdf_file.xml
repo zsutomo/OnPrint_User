@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UploadPdfFile">
+    tools:context=".UploadPdfFile"
+    android:background="@drawable/rect_gradient_white">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <include
+        android:id="@+id/toolbar_uploadfile"
+        layout="@layout/toolbar_upload_file"
+        />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_below="@+id/toolbar_uploadfile"
+        android:visibility="gone"
+        android:id="@+id/file_pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@drawable/rect_gradient_white">
+    </com.github.barteksc.pdfviewer.PDFView>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/blm_uplod"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:text="Belum Ada File di Upload"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/btn_pilih_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_pilih_file"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rect_gradient_upload"
+        android:drawableTop="@drawable/file_upload"
+        android:text="Pilih File"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
